@@ -14,7 +14,6 @@ body {
     height: 5em;
     width: 100%;
     background-color: #08192d;
-    transition: height 250ms ease-in-out 0s, box-shadow 250ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
 }
 
 .container {
@@ -41,7 +40,6 @@ body {
     display: flex;
     height: 35em;
     width: 100%;
-    transition: height 250ms ease-in-out 0s, box-shadow 250ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
 }
 
 .dark {
@@ -49,7 +47,7 @@ body {
 }
 
 .light{
-    background-color: rgb(242, 244, 248);
+    background-color: #eceff4;
 }
 
 .about {
@@ -57,7 +55,6 @@ body {
     height: 8em;
     width: 100%;
     background-color: #08192d;
-    transition: height 250ms ease-in-out 0s, box-shadow 250ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
     font-size: 1.1rem;
 }
 
@@ -70,17 +67,17 @@ body {
 }
 
 .light-text {
-    color: rgb(242, 244, 248);
+    color: #eceff4;
     font-size: 20px
 }
 
 .light-header{
     font-size: 50px;
-    color: rgb(242, 244, 248);
+    color: #eceff4;
 }
 
 .light-footer {
-    color: rgb(242, 244, 248);
+    color: #eceff4;
     font-size: 16px
 }
 
@@ -113,12 +110,12 @@ body {
 
 .section-header {
     font-size: 24px;
-    color: rgb(242, 244, 248)
+    color: #eceff4
 }
 
 .light-small-text {
     font-size: 16px;
-    color: rgb(242, 244, 248)
+    color: #eceff4
 }
 
 .button {
@@ -129,5 +126,5 @@ body {
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
+    color: #eceff4;
 }
